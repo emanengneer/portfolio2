@@ -1,0 +1,105 @@
+.sec{
+    background: url(../images/home.jpg) no-repeat;
+    background-size: cover;
+    
+}
+section{
+    padding: 70px;
+}
+.services .card span{
+display: flex;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+margin:auto;
+border:solid #09c 7px;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.services .card :hover span{
+border-color: #09c;
+background-color: #09c;
+
+}
+.main-title{
+    position: relative;
+   
+
+}
+.main-title h2{
+    font-weight: bold;
+}
+.main-title ::after{
+content: '';
+position: absolute;
+top:calc(100% + 20px);
+transform: translateX(-50%);
+width: 30px;
+height: 5px;
+background-color: #09c;
+left: 50%;
+margin-bottom: 50%;
+}
+.services .counter{
+    background:url(../images/counters-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.services .counter .layer{
+    min-height: 60vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+}
+.services .counter .layer span{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: solid 7px ;
+    margin: auto;
+    font-size: 30px;
+
+
+}
+.services .counter .layer{
+    opacity: 70%;
+}
+.portfolio .card :hover img{
+transform: scale(1.2);
+}
+.portfolio .card img{
+    transition: transform .5s;
+}
+.slider .layer{
+    background-color: blue;
+    opacity: 50%;
+}
+.slider{
+    background: url(../images/overlay-bg.jpg) center no-repeat fixed;
+}
+.contact .layer{
+
+opacity: 50%;
+}
+.contact {
+    background: url(../images/overlay-bg.jpg) fixed no-repeat center;
+    background-size: cover;
+}
+.contact .layer  .contact-area{
+    background-color: white;
+}
+form{
+    display: block;
+    margin: 30px  30px;
+    width: 80%;
+}
+#btnup{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
